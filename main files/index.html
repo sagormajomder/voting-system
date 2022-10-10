@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online CR Selection</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>Online CR Selection</h1>
+        <hr>
+    </header>
+    <main id="main">
+        <h2>Login</h2>
+        <!-- section 1 -->
+        <section>
+            <form action="./database/login.php" method="POST">
+                <input type="text" name="sid" placeholder="Student ID">
+                <input type="password" name="pass" placeholder="Enter Password">
+                <select name="role" id="">
+                    <option value="1">Voter</option>
+                    <option value="2">Candidate</option>
+                </select>
+                <button type="submit">LOGIN</button>
+            </form>
+        </section>
+        <!-- section 2 -->
+        <section class="s2">
+            <p>New User? <a href="./include/registration.html" target="_blank">Create an Account</a></p>
+        </section>
+    </main>
+</body>
+
+</html>

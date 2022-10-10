@@ -1,0 +1,13 @@
+section {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+section form{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+section form{
+    width: 100%;
+}
+.images,.select{
+    padding: .7rem;
+    font-size: 1rem;
+    margin: .6rem auto;
+    width: 72%;
+    border: 2px solid black;
+    border-radius: .5rem;
+}
+
+.address{
+    width: 72%;
+}
+.s2{
+    height: 8vh;
+    margin: 1.5rem 0;
+}
+
+

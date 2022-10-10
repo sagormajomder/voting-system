@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+button,#votebtn{
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: #e74c3c;
+    color: white;
+    font-weight: bold;
+    transition: .5s all;
+}
+button:hover,#votebtn:hover{
+    background-color: #c0392b;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #3498db;
+    color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#header{
+    height: 20vh;
+    padding: 1.5rem;
+    width: 80vw;
+    text-align: center;
+}
+#header h1{
+    padding: .9rem;
+}
+#main{
+    width: 80%;
+    height: 80vh;
+    text-align: center;
+}
+#main h2{
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+section form input,select,button,#votebtn{
+    width: 35%;
+    padding: .7rem;
+    border-radius: .3rem;
+    border: none;
+    margin: .6rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.s2{
+    font-size: 1rem;
+}
+.s2 a{
+    margin: 0 .3rem;
+    padding: .7rem;
+    border-radius: .3rem;
+    background-color: #2c3e50;
+    text-decoration: none;
+    color: white;
+}

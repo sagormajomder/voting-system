@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online CR Selection - Registration</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/registration.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>Online CR Selection</h1>
+        <hr>
+    </header>
+    <main id="main">
+        <h2>Registration</h2>
+        <section>
+            <form action="../database/register.php" method="POST" enctype="multipart/form-data">
+                <input type="text" name="name" id="" placeholder="Full Name" required>
+                <input type="text" name="sid" placeholder="Student ID Number" required><br>
+
+
+                <input type="password" name="pass" placeholder="Enter Password" required>
+                <input type="password" name="cpass" placeholder="Confirm Password" required><br>
+
+                <input type="text" class="address" name="address" id="" placeholder="Enter Address"><br>
+                <div class="images">
+                    <label for="images">Upload Images:</label>
+                    <input type="file" name="images" id="images">
+                </div>
+                <br>
+                <div class="select">
+                    <label for="role">Select your Role: </label>
+                    <select name="role" id="role" required>
+                        <option value="1">Voter</option>
+                        <option value="2">Candidate</option>
+                    </select><br>
+                </div>
+
+                <button type="submit">REGISTER</button>
+            </form>
+        </section>
+        <section class="s2">
+            <p>Already User? <a href="../index.html" target="_blank">Login here</a></p>
+        </section>
+    </main>
+
+</body>
+
+</html>
